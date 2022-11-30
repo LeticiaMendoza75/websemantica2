@@ -1,0 +1,76 @@
+<!--
+    Autor: Leticia Silveira Mendoza
+    Asignatura: LMGSI
+    Unidad: UD 2
+    Tarea Evaluativa 2. 80%
+    Página principal del proyecto
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>INICIO</title>
+    <!--https://docs.google.com/document/d/1DJHcoFZgkLQoKGy02bQQvZNy-OtUv23C5-I8RiT6bdw/edit?usp=sharing-->
+    <!-- 
+        Enlace pàgina publcada:  https://leticiamendoza75.github.io/websemantica/
+    -->
+     <!-- Enlace archivo css -->
+    <link rel="stylesheet" href="css\estilo.css">
+
+</head>
+<!--Se usa flexbox para organizar el documento-->
+<body>
+    <header>
+        <h1>Turismo en Cuba</h1> 
+    </header>
+    <section id="seccion">
+    
+        <nav>
+            <ul>
+             <li><a href="ciudad.html">Ciudad</a></li>
+             <li><a href="naturaleza.html">Naturaleza</a></li>
+             <li><a href="playaSol.html">Playa</a></li> 
+             <li><a href="noticias.html">Noticias</a></li> 
+             <li><a href="destinosPopulares.html">Destinos Populares</a></li> 
+            </ul>
+            
+        </nav>
+        <main>
+            <img src="imagenes\mapa Cuba.JPG" alt="CUBA">
+            <p>El archiélago cubano está localizado en la parte más occidental del caribe insular
+                Posee más de seis mil kilómetros de costas, con más de 600 playas.
+                La naturaleza de Cuba se muestra rica y curiosa en toda su extensión. 
+                La flora se distingue por el endemismo y la diversidad de sus comunidades vegetales. 
+                La fauna de Cuba tiene la particularidad de tener en lo diminuto sus rasgos más exclusivos.
+            </p>
+        </main>  
+
+        <aside>
+            <!--Formulario en el aside-->
+            <form action="mailto:lsilveira@birt.eus"method="POST">
+                <fieldset>
+                <legend>Contáctenos</legend>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" ><br>
+                <label for="lname">Apellido:</label><br>
+                <input type="text" id="apellido" name="apellido" ><br>
+
+                <label for="opcion">Elige opción:</label>
+                <select id="opc"name="opc">
+                <option value="ciudad">CIUDAD</option>
+                <option value="naturaleza">NATURALEZA</option>
+                <option value="playa">PLAYA</option>
+                </select>
+                <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+            
+        </aside>
+    </section>
+
+    <footer>
+        <img class="posicion-absoluta"src="imagenes\imagenCuba.JPG" alt="CUBA">
+        <p>Autoría: Leticia Silveira Mendoza</p>
+    </footer>       
+  
+</body>
+</html>
